@@ -4,7 +4,7 @@ const categories_span = document.querySelectorAll(".categories span");
 
 const baseURL = "https://newsdata.io/api/1/news?";
 const apiKey = "apikey=pub_182137e02b1569b853d4e4ea28a73216dad81&";
-const backUpImage = "https://images.unsplash.com/photo-1585250003680-b12dbff01e65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
+const backUpImage = "Images/default.jpg";
 
 
 async function dataRequest(url){
